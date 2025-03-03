@@ -48,6 +48,7 @@ export default function SelectUserPage() {
             <UserCard icon={FaBookReader} title="Teacher" onClick={() => handleUserSelect("Teacher")} /> 
             <UserCard icon={FaUserGraduate} title="Student" onClick={() => handleUserSelect("Student")} />
           </div>
+          <br></br><br></br><br></br>
           <Link to="/login" className="next-button">Next →</Link>
         </Card>
       </div>

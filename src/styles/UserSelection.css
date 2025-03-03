@@ -64,7 +64,7 @@
   align-items: center;
   justify-content: center;
   background: #ffffff;
-  border: 1px solid #ddd;
+  border: 1px solid #605d5d;
   padding: 20px;
   border-radius: 10px;
   transition: 0.3s;
@@ -136,7 +136,7 @@
 .user-icon {
   font-size: 40px;
   color: rgb(0, 0, 0);
-  stroke-width: 5; /* زيادة سماكة الإطار */
+  stroke-width: 8; /* زيادة سماكة الإطار */
   stroke: currentColor; /* يستخدم نفس لون النص */
   fill: none; /* يجعل الأيقونة فارغة من الداخل */
 }
