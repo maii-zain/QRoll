@@ -7,13 +7,19 @@ export default function LoginPage() {
   return (
     <div className="user-selection-container">
 
-      {/* ✅ القسم الأيسر: نموذج تسجيل الدخول داخل كارد */}
-      <div className="selection-section">
+     
+
+      {/* ✅ القسم الأيمن: صورة QR */}
+      <div className="image-section">
+        <img src="/imgs/qr.jpeg" alt="Login" className="user-image" />
+      </div>
+       {/* ✅ القسم الأيسر: نموذج تسجيل الدخول داخل كارد */}
+       <div className="selection-section">
         <Card className="selection-card">
           
           {/* ✅ شريط التقدم Step 2 */}
           <div className="progress-container">
-            <img src="/imgs/step-icon.png" alt="Step Icon" className="step-icon" />
+            <img src="imgs\fs.jpeg" alt="Step Icon" className="step-icon" />
             <div className="progress-bar">
               <div className="progress-fill" style={{ width: "66%" }}></div> {/* Step 2 */}
             </div>
@@ -22,11 +28,6 @@ export default function LoginPage() {
 
           <LoginForm />
         </Card>
-      </div>
-
-      {/* ✅ القسم الأيمن: صورة QR */}
-      <div className="image-section">
-        <img src="/imgs/qr.jpeg" alt="Login" className="user-image" />
       </div>
 
     </div>
